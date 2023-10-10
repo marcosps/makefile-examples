@@ -5,8 +5,16 @@ Example of how to use some Make features
 
 [lastword, filter, words](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
 
-[dir, realpath](https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html#index-dir)
+[include](https://www.gnu.org/software/make/manual/html_node/Include.html)
+
+[export](https://www.gnu.org/software/make/manual/html_node/Variables_002fRecursion.html#index-variables_002c-exporting)
+
+[MAKEFLAGS](https://www.gnu.org/software/make/manual/html_node/Options_002fRecursion.html)
+
+[abspath, dir, realpath](https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html)
 
 [CURDIR](https://www.gnu.org/software/make/manual/make.html#Quick-Reference)
 
-[$*](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
+[Automatic variables, $*](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
+
+[PHONY targets](https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html)
