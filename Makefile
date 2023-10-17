@@ -10,6 +10,8 @@ MAKEFLAGS += -rR
 
 all:
 	@echo Current directory: $(CURDIR)
+	@echo Parent dir: $(dir $(CURDIR))
+	@echo Parent dir without the backslash: $(patsubst %/,%,$(dir $(CURDIR)))
 	@echo Current Makefile: $(abspath $(name1))
 	@echo Current flags: $(MAKEFLAGS)
 	@echo All makefiles parsed: $(MAKEFILE_LIST)

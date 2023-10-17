@@ -3,7 +3,7 @@ Example of how to use some Make features
 
 [MAKEFILE_LIST](https://www.gnu.org/software/make/manual/html_node/Special-Variables.html)
 
-[lastword, filter, words](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
+[filter, lastword, patsubst, words](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
 
 [include](https://www.gnu.org/software/make/manual/html_node/Include.html)
 
