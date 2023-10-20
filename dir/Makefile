@@ -6,6 +6,6 @@ all:
 		$(mk_files)
 
 check:
-	@echo Check called
+	@echo Triggered check target inside dir
 
 .PHONY: all check

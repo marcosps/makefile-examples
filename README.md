@@ -1,6 +1,21 @@
 Example of how to use some Make features
 ----------------------------------------
 
+Use the following make invocations to see different behaviors from variables or
+other features:
+
+```sh
+make
+
+make all
+
+make test-check
+
+make all dummy1 dummy2
+```
+
+References for the commands
+---------------------------
 [MAKEFILE_LIST](https://www.gnu.org/software/make/manual/html_node/Special-Variables.html)
 
 [filter, lastword, patsubst, words](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
@@ -8,6 +23,8 @@ Example of how to use some Make features
 [include](https://www.gnu.org/software/make/manual/html_node/Include.html)
 
 [export](https://www.gnu.org/software/make/manual/html_node/Variables_002fRecursion.html#index-variables_002c-exporting)
+
+[MAKECMDGOALS](https://www.gnu.org/software/make/manual/html_node/Goals.html)
 
 [MAKEFLAGS](https://www.gnu.org/software/make/manual/html_node/Options_002fRecursion.html)
 
