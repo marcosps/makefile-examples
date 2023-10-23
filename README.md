@@ -18,7 +18,7 @@ make rule1 rule2
 
 References for the commands
 ---------------------------
-[MAKEFILE_LIST](https://www.gnu.org/software/make/manual/html_node/Special-Variables.html)
+[MAKEFILE_LIST .DEFAULT_GOAL](https://www.gnu.org/software/make/manual/html_node/Special-Variables.html)
 
 [filter, lastword, patsubst, words](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
 

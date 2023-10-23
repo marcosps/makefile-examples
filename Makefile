@@ -26,6 +26,9 @@ all:
 	@# One can pass more than one target to be executed.
 	@echo Goals: $(MAKECMDGOALS)
 	@
+	@# The default goal can be set to any of the available targets
+	@echo Default Goal: $(.DEFAULT_GOAL)
+	@
 	@# CURDIR is set when a Makefile is processed.
 	@echo Current directory: $(CURDIR)
 	@
