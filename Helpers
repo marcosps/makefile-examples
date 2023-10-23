@@ -1,0 +1,11 @@
+reverse = $(2) $(1)
+
+define MY_FUNC
+	@echo MY_FUNC called, first arg is $(1), second is $(2)
+endef
+
+all:
+	@echo Using call we can pass arguments to variables. For example to call \
+		reverse to reverse a b into $(call reverse,a,b)
+	@echo Now using call to "call" the MY_FUNC canned recipe:
+	@echo $(call MY_FUNC,arg1 multitext,arg2)

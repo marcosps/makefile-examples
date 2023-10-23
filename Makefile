@@ -65,6 +65,10 @@ all:
 	@echo
 	@echo Now lets jump into dir and run make there
 	make -C dir
+	@echo
+	@echo Now use -f to execute make on Helpers file:
+	make -f Helpers
+
 
 # It can be useful to create rules that repeat on the Makefile. This can be
 # handy when one of the rules depend on a setup step, so both recipes will be
