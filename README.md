@@ -38,4 +38,6 @@ References for the commands
 
 [Double-Colon Rules](https://www.gnu.org/software/make/manual/html_node/Double_002dColon.html)
 
+[Substitution References](https://www.gnu.org/software/make/manual/make.html#Substitution-Refs)
+
 [PHONY targets](https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html)
