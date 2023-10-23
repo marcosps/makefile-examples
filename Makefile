@@ -63,6 +63,15 @@ all:
 	@echo Now lets jump into dir and run make there
 	make -C dir
 
+# It can be useful to create rules that repeat on the Makefile. This can be
+# handy when one of the rules depend on a setup step, so both recipes will be
+# executed.  When such usage is required, all the rules that have the same name
+# need to be specified used double colon (::), otherwise make returns one error.
+rule1::
+	@echo first rule, called by $@
+rule1 rule2::
+	@echo second rule, called by $@
+
 # Try calling "make test-check", so it will reach the check target no
 # dir/Makefile dir
 test-%:

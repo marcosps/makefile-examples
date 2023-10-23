@@ -12,6 +12,8 @@ make all
 make test-check
 
 make all dummy1 dummy2
+
+make rule1 rule2
 ```
 
 References for the commands
@@ -33,5 +35,7 @@ References for the commands
 [CURDIR](https://www.gnu.org/software/make/manual/make.html#Quick-Reference)
 
 [Automatic variables, $*](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
+
+[Double-Colon Rules](https://www.gnu.org/software/make/manual/html_node/Double_002dColon.html)
 
 [PHONY targets](https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html)
