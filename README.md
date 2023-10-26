@@ -5,15 +5,18 @@ Use the following make invocations to see different behaviors from variables or
 other features:
 
 ```sh
-make
+$ make
 
-make all
+$ make all
 
-make test-check
+$ make test-check
 
-make all dummy1 dummy2
+$ make all dummy1 dummy2
 
-make rule1 rule2
+$ make rule1 rule2
+
+# because of the '+' sign, the bla dir will be created
+$ make --just-print
 ```
 
 References for the commands
@@ -22,11 +25,17 @@ References for the commands
 
 [Canned Recipes, define](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html)
 
-[MAKEFILE_LIST .DEFAULT_GOAL](https://www.gnu.org/software/make/manual/html_node/Special-Variables.html)
+[$(MAKE), '+'](https://www.gnu.org/software/make/manual/make.html#How-the-MAKE-Variable-Works)
+
+['-'](https://www.gnu.org/software/make/manual/make.html#Errors-in-Recipes)
+
+[MAKEFILE_LIST, .DEFAULT_GOAL](https://www.gnu.org/software/make/manual/html_node/Special-Variables.html)
 
 [filter, lastword, patsubst, words](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
 
 [include](https://www.gnu.org/software/make/manual/html_node/Include.html)
+
+[echo, --just-print, @](https://www.gnu.org/software/make/manual/make.html#Recipe-Echoing)
 
 [export](https://www.gnu.org/software/make/manual/html_node/Variables_002fRecursion.html#index-variables_002c-exporting)
 

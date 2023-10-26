@@ -67,7 +67,7 @@ all:
 	make -C dir
 	@echo
 	@echo Now use -f to execute make on Helpers file:
-	make -f Helpers
+	$(MAKE) -f Helpers
 
 
 # It can be useful to create rules that repeat on the Makefile. This can be
