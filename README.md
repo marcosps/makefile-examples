@@ -49,6 +49,8 @@ References for the commands
 
 [Automatic variables, $*](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
 
+[Set variable from command-line](https://www.gnu.org/software/make/manual/html_node/Overriding.html#index-command-line-variables)
+
 [Double-Colon Rules](https://www.gnu.org/software/make/manual/html_node/Double_002dColon.html)
 
 [Substitution References](https://www.gnu.org/software/make/manual/make.html#Substitution-Refs)

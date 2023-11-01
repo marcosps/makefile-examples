@@ -68,6 +68,10 @@ all:
 	@echo
 	@echo Now use -f to execute make on Helpers file:
 	$(MAKE) -f Helpers
+	@echo
+	@echo Show now how to use variables from command line:
+	$(MAKE) -f Helpers print_val
+	$(MAKE) -f Helpers other_val VAR1=from_command_line
 
 
 # It can be useful to create rules that repeat on the Makefile. This can be

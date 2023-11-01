@@ -1,5 +1,7 @@
 reverse = $(2) $(1)
 
+VAR1 = default_val
+
 define MY_FUNC
 	@echo MY_FUNC called, first arg is $(1), second is $(2)
 endef
@@ -21,3 +23,11 @@ all:
 	@# continues executing the next commands even if the commands fail.
 	-rmdir blabla
 	rmdir bla
+
+print_val:
+	@echo The value of VAR1 is $(VAR1)
+
+other_val:
+	@echo If the value is set when invoking Make, it cannot be changed \
+		inside the rules, but only when using the override keyword
+	@echo VAR1 set from the command line: $(VAR1)
