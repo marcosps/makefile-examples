@@ -43,11 +43,11 @@ References for the commands
 
 [MAKEFLAGS](https://www.gnu.org/software/make/manual/html_node/Options_002fRecursion.html)
 
-[abspath, dir, realpath](https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html)
+[abspath, dir, notdir, realpath](https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html)
 
 [CURDIR](https://www.gnu.org/software/make/manual/make.html#Quick-Reference)
 
-[Automatic variables, $*](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
+[Automatic variables, $*, $<, $^](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
 
 [Set variable from command-line](https://www.gnu.org/software/make/manual/html_node/Overriding.html#index-command-line-variables)
 

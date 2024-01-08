@@ -36,6 +36,8 @@ all:
 	@# a path
 	@echo Parent dir: $(dir $(CURDIR))
 	@
+	@echo Current basename: $(notdir $(CURDIR))
+	@
 	@# patsubst works like "replace" it expects a pattern to search for, what
 	@# it will do when it finds, and where to search for it. '%' is the
 	@# wildcard, so in the example below it will search for the ending slash,
@@ -83,6 +85,15 @@ rule1::
 rule1 rule2::
 	@echo second rule, called by $@
 
+dep1:
+	@echo Calling $@
+
+# The name after the target name is the dependency target, and in this case it
+# will be called before target1 is called.
+target1: dep1
+	@echo The target $@ was called after the dependency $<
+	@echo $$^ shows all prerequisites
+
 # Try calling "make test-check", so it will reach the check target no
 # dir/Makefile dir
 test-%:
@@ -97,4 +108,4 @@ dummy1:
 dummy2:
 	@:
 
-.PHONY: all test dummy1 dummy2
+.PHONY: all test dummy1 dummy2 dep1 target1 rule1 rul2
