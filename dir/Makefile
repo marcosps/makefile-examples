@@ -16,4 +16,7 @@ all:
 check:
 	@echo Triggered check target inside dir
 
+var_from_shell:
+	@echo The FROM_SHELL shows the parent directory
+
 .PHONY: all check

@@ -68,6 +68,9 @@ all:
 	@echo Now lets jump into dir and run make there
 	make -C dir
 	@echo
+	@echo Shell commands are executed before parsing a Makefile:
+	make -C dir var_from_shell FROM_SHELL=$(shell pwd)
+	@echo
 	@echo Now use -f to execute make on Helpers file:
 	$(MAKE) -f Helpers
 	@echo
