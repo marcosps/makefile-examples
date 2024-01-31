@@ -3,7 +3,7 @@
 # the full path to it you should use abspath function
 name1 := $(lastword $(MAKEFILE_LIST))
 
-# This includes the contents of inc.mk Makefile to the current one
+# This includes the contents of inc.mk Makefile to the current running makefile
 include inc.mk
 
 # At this point there will be two entries in MAKEFILE_LIST, since inc.mk was

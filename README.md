@@ -5,6 +5,8 @@ Use the following make invocations to see different behaviors from variables or
 other features:
 
 ```sh
+$ make -f IncludeCheck.mk
+
 $ make
 
 $ make all
