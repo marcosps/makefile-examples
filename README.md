@@ -7,6 +7,8 @@ other features:
 ```sh
 $ make -f IncludeCheck.mk
 
+$ make -f DuplicatedTargets.mk target1
+
 $ make
 
 $ make all
@@ -14,8 +16,6 @@ $ make all
 $ make test-check
 
 $ make all dummy1 dummy2
-
-$ make rule1 rule2
 
 # because of the '+' sign, the bla dir will be created
 $ make --just-print

@@ -79,15 +79,6 @@ all:
 	$(MAKE) -f Helpers other_val VAR1=from_command_line
 
 
-# It can be useful to create rules that repeat on the Makefile. This can be
-# handy when one of the rules depend on a setup step, so both recipes will be
-# executed.  When such usage is required, all the rules that have the same name
-# need to be specified used double colon (::), otherwise make returns one error.
-rule1::
-	@echo first rule, called by $@
-rule1 rule2::
-	@echo second rule, called by $@
-
 dep1:
 	@echo Calling $@
 
@@ -111,4 +102,4 @@ dummy1:
 dummy2:
 	@:
 
-.PHONY: all test dummy1 dummy2 dep1 target1 rule1 rul2
+.PHONY: all test dummy1 dummy2 dep1 target1
