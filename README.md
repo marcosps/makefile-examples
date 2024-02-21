@@ -2,12 +2,14 @@ Example of how to use some Make features
 ----------------------------------------
 
 Use the following make invocations to see different behaviors from variables or
-other features:
+other make features:
 
 ```sh
 $ make -f IncludeCheck.mk
 
 $ make -f DuplicatedTargets.mk target1
+
+$ make -f TestVarExposure.mk VAR3=ble
 
 $ make
 
@@ -16,6 +18,7 @@ $ make all
 $ make test-check
 
 $ make all dummy1 dummy2
+
 
 # because of the '+' sign, the bla dir will be created
 $ make --just-print
