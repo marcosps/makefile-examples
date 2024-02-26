@@ -7,6 +7,8 @@ other make features:
 ```sh
 $ make -f IncludeCheck.mk
 
+$ make -f TargetOverride.mk
+
 $ make -f DuplicatedTargets.mk target1
 
 $ make -f TestVarExposure.mk VAR3=ble
