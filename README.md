@@ -5,6 +5,8 @@ Use the following make invocations to see different behaviors from variables or
 other make features:
 
 ```sh
+$ make -f CheckDirExists.mk
+
 $ make -f IncludeCheck.mk
 
 $ make -f TargetOverride.mk
